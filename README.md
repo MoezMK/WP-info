@@ -9,9 +9,10 @@
 pip install requests pyfiglet tqdm
 
 📂 التثبيت باستخدام requirements.txt
-
+```
+bash```
 pip install -r requirements.txt
-
+```
 🐍 إنشاء بيئة افتراضية (اختياري)
 
 🔹 إنشاء البيئة الافتراضية
