@@ -16,3 +16,5 @@
 قبل تشغيل الأداة، قم بتثبيت المتطلبات عبر `pip`:
 ```bash
 pip install requests pyfiglet tqdm
+# فتح كتلة جديدة
+echo "Hello, World!"
