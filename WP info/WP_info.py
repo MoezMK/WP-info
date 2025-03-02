@@ -10,8 +10,9 @@ from tqdm import tqdm
 
 
 wp_logo = pyfiglet.figlet_format("WP Info")
+contact_info = "\nTelegram: @Moezmk0_rt\tGitHub: MoezMK\n"
 
-
+print("______________________________________________________")
 def check_wordpress(url):
     try:
         headers = {
@@ -89,6 +90,8 @@ def fetch_multiple_urls(urls):
 
 def main():
     print(wp_logo)
+    print(contact_info)
+    print("______________________________________________________\n")
     parser = argparse.ArgumentParser(description="Fetch WordPress user data.")
     parser.add_argument("-u", "--url", help="URL of the WordPress site")
     parser.add_argument("-f", "--file", help="File containing multiple URLs (one per line)")
